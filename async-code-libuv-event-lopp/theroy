@@ -1,0 +1,25 @@
+// Asynchronous
+1. More than 1 processes are running at a time.
+2. Node is Asynchronous.
+3. V8 is NOT Asynchronous.
+
+// Synchronous
+1. Only 1 process is running at a time.
+2. JavaScript is Synchronous.
+3. Hence V8 is Synchronous.
+
+//  Callback
+1. A function passed to some other function, which we assume will be invoked at some point.
+e.g. : Here callback of fun2 is given in fun1
+int fun1()
+{
+    .........
+    .........
+    fun2();
+}
+
+// Libuv
+1. Talks with OS and maintains a queue for the events requested to OS and completed by OS.
+2. Once requested, libuv waits for the event to be completed.
+3. When event is finished by OS, it callback V8 for doing the processing needed.
+4. This is why V8 is Synchronous but Node is Asynchronous
