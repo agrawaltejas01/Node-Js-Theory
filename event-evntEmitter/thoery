@@ -1,0 +1,5 @@
+Events
+1. Somthing that has occurred.
+2. 2 types : 
+   a. System Events : Handled by libuv (Comes from C++ core of JS)
+   b. Custom Events : Handled by event Emitter (Comes from JS core of JS)
