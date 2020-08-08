@@ -1,0 +1,28 @@
+1. Node Js follows Common JS modules pattern
+2. Its just a standard of structured modules. 
+
+// First Class Function
+1. A function in JS can be used as any other data types in JS(string, array, numbers, etc).
+2. We can assign them to variables, put them in array, print them, put them in expression etc..
+
+// Pass By Value and Reference
+1. An object in JS is always passed by Reference in JS.
+
+// Immedietly Invoked Function Expression (IIFE)
+1. function() {
+    ...
+    ...
+    }
+This is a normal function in JS.
+2. ( function() {
+
+    } )
+Now, wrapped around in paranthesis, this function is treated as expression.
+3. ( function() {
+
+    }() )
+Now added a paranthesis to Immedietly call the function in the expression.
+This is called IIFE
+
+
+

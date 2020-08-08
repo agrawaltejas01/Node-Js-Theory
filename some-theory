@@ -1,0 +1,26 @@
+1. Node works on V8 engine
+2. V8 is written in C ++
+3. Therefore Node is essentially written in C++.
+4. Node is Server side JS.
+5. But it can run Js application on both server side and client side.
+6. Node is not JS, it accepts JS and allows us to do more with it
+
+
+4.ECMAScript => JS is based on ECMAScript.
+When JS broke out, different browsers started to develop their own JS engine and hence their own JS. 
+EXMAScript was then set as std.
+
+V8
+1. Developed by Google
+2. Was built to primarily used in Chrome.
+3. Based on ECMAScript
+
+
+What does JS need to manage server ? 
+
+1. Ways to deal with file
+2. Ways to deal with dataBase
+3. Ability to Communicate over the internet
+4. Ability to accept and send requests. (In standerd Format).
+
+
