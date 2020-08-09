@@ -1,0 +1,27 @@
+1. Generally TCP/IP is used for transmitting data over net.
+2. OS knows how to transfer this data.
+3. Node can access these features of OS.
+4. We assign Node a port.
+
+// HTTP(HyperText Transfer Protocol)
+1. When info is transmitted, it has to follow some sort of rules.
+2. HTTP is the set of rules.
+
+// MIME
+  A std for specifying type of data being sent.
+  E.g :
+    application/json,
+    text/html,
+    image/jpg
+
+// Http_Parser
+1. A Module that helps in formatting the HTTP data.
+
+// API (Application Programming Interface)
+1. API are nothing but set of tools for building a software
+2. In Web Application terms, these tools are generally made available via a set of URLs
+3. These URLs accept and send data via HTTP and TCP/IP
+
+// End Point
+1. 1 URL in Web API is called end point.
+2. Sometimes this endpoint (URL) might do more than 1 thing. 
