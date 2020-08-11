@@ -1,3 +1,8 @@
+What is Node JS
+1. Before Node JS came, JS was a something that could only be used on browser and front-edn tasks.
+2. JS could not connect to DB, or make a server, while all other langs could do that.
+3. Therefore Node JS was developed for.
+
 1. Node works on V8 engine
 2. V8 is written in C ++
 3. Therefore Node is essentially written in C++.
@@ -6,7 +11,7 @@
 6. Node is not JS, it accepts JS and allows us to do more with it
 
 
-4.ECMAScript => JS is based on ECMAScript.
+ECMAScript (ES5/ ES6/ ...) => JS is based on ECMAScript.
 When JS broke out, different browsers started to develop their own JS engine and hence their own JS. 
 EXMAScript was then set as std.
 
@@ -15,9 +20,21 @@ V8
 2. Was built to primarily used in Chrome.
 3. Based on ECMAScript
 
+Why should we use Node JS
+1. It provides Event-driven, non blocking I/O model. 
+2. It uses the npm package ecosystem
+1.1. non blocking I/O => When Node JS's I/O is running on system, it can do other tasks, making it super
+                         Efficient and non blocking. (Generally when I/O are occurring process goes to wait 
+                         state. [State Diagram OS])
+1.2. Event-driven     => When I/O operation is done, OS needs to tell node JS to resume the code where it left.
+                         For this callback functions are used. Calling these callback function tells us that an
+                         event has occurred.
+2.1 NPM               => Iske toh kya hi kehne :P
+
+                       
+
 
 What does JS need to manage server ? 
-
 1. Ways to deal with file
 2. Ways to deal with dataBase
 3. Ability to Communicate over the internet
